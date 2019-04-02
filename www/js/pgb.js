@@ -20,3 +20,14 @@ function deviceInfo() {
 	navigator.notification.alert(info);
 	
 }
+
+function personalInfo() {
+		info =  'Name: Mateusz' + '\n' +
+				'Surname: Gut' + '\n' +
+				'Age: 23';
+		;
+
+	navigator.notification.alert(info);
+}
+
+
