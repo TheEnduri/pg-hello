@@ -24,7 +24,8 @@ function deviceInfo() {
 function personalInfo() {
 		info =  'Name: Mateusz' + '\n' +
 				'Surname: Gut' + '\n' +
-				'Age: 23';
+				'Age: 23' + '\n' +
+				'City: Cracow';
 		;
 
 	navigator.notification.alert(info);
